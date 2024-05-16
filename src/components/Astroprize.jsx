@@ -49,17 +49,10 @@ function Astroprize() {
                 interactive game that gives them shakes, shakes cam be opened by
                 shaking the cellphone, opening shakes may make people get
                 prizes. The data about the visitors' preferences at the
-                planetarium can be seen in AstroData.{" "}
-                <a
-                  href="/astroprize"
-                  className="text-[#FFE6E6] hover:underline"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Find more in Atrodata{" "}
-                </a>{" "}
-                This project was developed in PHP. The database was created in
-                MySQL. The front-end was developed in JavaScript, HTML, and CSS.
+                planetarium can be seen in AstroData. You can find more about it
+                Astrodata. This project was developed in PHP. The database was
+                created in MySQL. The front-end was developed in JavaScript,
+                HTML, and CSS.
               </p>
             </div>
           </div>

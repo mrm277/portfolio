@@ -40,14 +40,10 @@ function Astrodata() {
               Porto's Planetarium. The challenge was to make the visits more
               interactive and immersive. The solution that my three colleagues
               and I found was a web app. Users can scan a QR code to learn more
-              about the exhibitions they like, play a game, and even win prizes.{" "}
-              <a
-                href="/astroprize"
-                className="text-[#FFE6E6] hover:underline"
-                rel="noopener noreferrer"
-              >
-                Find more in Astroprize
-              </a>{" "}
+              about the exhibitions they like, play a game, and even win prizes.
+            
+               You can find more about it Astroprize.
+       
               The data about the visitors' preferences at the planetarium can be
               seen in AstroData. This is advantageous for the planetarium
               managers because it allows them to know where to invest. In

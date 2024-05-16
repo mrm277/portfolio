@@ -12,6 +12,13 @@ import { faImage } from "@fortawesome/free-solid-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import aboutmeImg from "../img/aboutme-img.png";
 import Mywork from "./Myworks";
+import mysql_roda from "../img/mysql_roda.svg";
+import react_roda from "../img/react_roda.svg";
+import laravel_roda from "../img/laravel_roda.svg";
+import tailwind_roda from "../img/tailwind_roda.svg";
+import bootstrap_roda from "../img/bootstrap_roda.svg";
+import js_roda from "../img/js_roda.svg";
+import php_roda from "../img/php_roda.svg";
 
 function Homepage() {
   const [textToCopy, setTextToCopy] = useState("mariamonteiroes13@gmail.com");
@@ -188,7 +195,7 @@ function Homepage() {
       </div>
 
       {/* SKILLS */}
-      <div className="w-screen h-[25%] m-auto max-w-5xl flex flex-col mt-16">
+      <div className="w-screen min-h-[25%] m-auto max-w-5xl flex flex-col">
         <h2 className="text-6xl font-bold text-end text-[#AD88C6]">
           What are my skills?
         </h2>
@@ -199,14 +206,43 @@ function Homepage() {
           React and a bit of Laravel. I am also proficient in design tools such
           as Figma.
         </p>
+
+        <div className="flex justify-between text-center max-w-full space-x-4 m-10 end-0">
+          <div className="flex-1">
+            <img src={js_roda} alt="react" className="w-20 h-20 mx-auto" />
+          </div>
+          <div className="flex-1">
+            <img src={php_roda} alt="react" className="w-20 h-20 mx-auto" />
+          </div>
+          <div className="flex-1">
+            <img src={react_roda} alt="react" className="w-20 h-20 mx-auto" />
+          </div>
+          <div className="flex-1">
+            <img
+              src={tailwind_roda}
+              alt="react"
+              className="w-20 h-20 mx-auto"
+            />
+          </div>
+          <div className="flex-1">
+            <img
+              src={bootstrap_roda}
+              alt="react"
+              className="w-20 h-20 mx-auto"
+            />
+          </div>
+          <div className="flex-1">
+            <img src={laravel_roda} alt="react" className="w-20 h-20 mx-auto" />
+          </div>
+          <div className="flex-1">
+            <img src={mysql_roda} alt="react" className="w-20 h-20 mx-auto" />
+          </div>
+        </div>
       </div>
-  
-        {/* MY WORKS */}  
-        <div id="projects">
+      {/* MY WORKS */}
+      <div id="projects">
         <Mywork />
       </div>
-
-
     </>
   );
 }
