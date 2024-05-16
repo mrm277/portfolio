@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import polaroid from "../img/polaroid.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faIdCard } from "@fortawesome/free-solid-svg-icons";
@@ -12,6 +11,7 @@ import { faFilm } from "@fortawesome/free-solid-svg-icons";
 import { faImage } from "@fortawesome/free-solid-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import aboutmeImg from "../img/aboutme-img.png";
+import Mywork from "./Myworks";
 
 function Homepage() {
   const [textToCopy, setTextToCopy] = useState("mariamonteiroes13@gmail.com");
@@ -200,6 +200,13 @@ function Homepage() {
           as Figma.
         </p>
       </div>
+  
+        {/* MY WORKS */}  
+        <div id="projects">
+        <Mywork />
+      </div>
+
+
     </>
   );
 }

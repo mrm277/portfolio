@@ -3,14 +3,12 @@ import { faReact } from "@fortawesome/free-brands-svg-icons";
 import { faJs } from "@fortawesome/free-brands-svg-icons";
 import BackButton from "./Backbutton";
 import tailwindlogo from "../img/tailwindlogo.svg";
-import mysql_logo from "../img/mysql_logo.svg";
 import book_vid from "../img/book_vid.mp4";
-import Navbar from "./Navbar";
 
 function BookBeats() {
   return (
-<div className="h-screen bg-gradient-to-b from-[#7469B6] to-[#AD88C6]">
-  <Navbar />    
+    <div className="h-screen bg-gradient-to-b from-[#7469B6] to-[#AD88C6] flex flex-col  justify-center ">
+ 
     <div className="flex flex-col items-center justify-center">
     <div className="flex max-w-screen-xl mx-auto items-center">
       <div style={{ width: '30%' }}>
@@ -25,9 +23,8 @@ function BookBeats() {
       </div>
 
       <div className="ml-14" style={{ width: '70%' }}>
-        <h1 className="text-5xl text-white font-semibold">BookBeats</h1>
-        <div className="flex">
-          <img src={mysql_logo} alt="myslq" className="w-10 mr-2" />
+        <h1 className="text-5xl text-white font-semibold mb-2">BookBeats</h1>
+        <div className="flex mb-2">
           <FontAwesomeIcon icon={faJs} className="text-white text-3xl mr-2" />
           <FontAwesomeIcon
             icon={faReact}

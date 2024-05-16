@@ -8,8 +8,7 @@ import Navbar from "./Navbar";
 
 function Eco() {
   return (
-<div className="h-screen bg-gradient-to-b from-[#7469B6] to-[#AD88C6]">
-  <Navbar />    
+    <div className="h-screen bg-gradient-to-b from-[#7469B6] to-[#AD88C6] flex flex-col  justify-center ">
     <div className="flex flex-col items-center justify-center">
     <div className="flex max-w-screen-xl mx-auto items-center">
             <div style={{ width: "30%" }}>
@@ -24,8 +23,8 @@ function Eco() {
       </div>
 
       <div className="ml-14" style={{ width: "70%" }}>
-        <h1 className="text-5xl text-white font-semibold">Eco-Exploradores</h1>
-        <div className="flex">
+        <h1 className="text-5xl text-white font-semibold mb-2">Eco-Exploradores</h1>
+        <div className="flex mb-2">
           <FontAwesomeIcon
             icon={faHtml5}
             className="text-white text-3xl mr-2"
