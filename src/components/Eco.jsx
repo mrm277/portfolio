@@ -39,7 +39,7 @@ function Eco() {
           ></FontAwesomeIcon>
         </div>
         <p className="text-xl text-white">
-          <b>Eco Explorers</b> is a project that was carried out in
+          Eco Exploradores is a project that was carried out in
           collaboration with two other colleagues for Laboratório Multimédia 3
           course, using JavaScript as the main technology. This project is a web
           page, designed for tablets, ideally located in a science center. The
