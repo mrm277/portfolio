@@ -42,8 +42,8 @@ function Homepage() {
             <h1 className="text-7xl font-bold text-white text-left">
               Designing the future,
               <br />
-              writing line by  <br />
-              line
+              writing line <br />
+              by line
             </h1>
             <p className="text-white text-2xl mt-2">
               A student from Porto, at Aveiro University
