@@ -46,7 +46,7 @@ function Homepage() {
               by line
             </h1>
             <p className="text-white text-2xl mt-2">
-              A dev with a passion for design and a love for ice cream
+              A dev with a passion for design
             </p>
             {/* <p>From Porto to Aveiro </p> */}
 
