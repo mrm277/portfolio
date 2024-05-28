@@ -46,7 +46,7 @@ function Homepage() {
               by line
             </h1>
             <p className="text-white text-2xl mt-2">
-              A student from Porto, at Aveiro University
+              A dev with a passion for design and a love for ice cream
             </p>
             {/* <p>From Porto to Aveiro </p> */}
 
@@ -98,11 +98,11 @@ function Homepage() {
       </div>
 
       {/* THINGS I LIKE TO DO */}
-      <div className="flex flex-col place-content-center items-center w-full h-[50%]">
-        <h1 className="text-6xl text-center mt-28 font-bold text-[#AD88C6]">
+      <div className="flex flex-col place-content-center items-center w-full h-[60%] ">
+        <h1 className="text-6xl text-center font-bold text-[#AD88C6]">
           Things I like to do
         </h1>
-        <p className="text-xl my-8">
+        <p className="text-xl mt-3 mb-12">
           {" "}
           Basically everyting I can do in my computer
         </p>
@@ -167,11 +167,12 @@ function Homepage() {
       {/* ABOUT ME */}
       <div
         id="aboutme"
-        className="relative flex items-center justify-center min-h-screen mt-28"
+        className="relative flex items-center justify-center min-h-screen py-5 bg-[#fffaff]"
       >
         <div className="h-screen w-screen max-w-5xl flex items-center justify-start">
-          <h2 className="absolute font-bold text-7xl text-black text-center mb-4 top-[16vh] left-[10vw]">
-            About <span className="text-violet-400">me</span>
+          <h2 className="absolute font-bold text-7xl text-black text-end mb-4 top-[15vh] left-[13vw]">
+            About <br />
+            <span className="text-violet-400">me</span>
           </h2>
           <img src={aboutmeImg} alt="about me" className="w-auto h-[45rem]" />
 
@@ -195,11 +196,11 @@ function Homepage() {
       </div>
 
       {/* SKILLS */}
-      <div className="w-screen min-h-[25%] m-auto max-w-5xl flex flex-col">
-        <h2 className="text-6xl font-bold text-end text-[#AD88C6]">
+      <div className="w-screen min-h-[25%] m-auto px-5 max-w-5xl flex flex-col py-10">
+        <h2 className="text-6xl font-bold text-center text-[#AD88C6]">
           What are my skills?
         </h2>
-        <p className="text-black mt-2 text-end">
+        <p className="text-black mt-2 text-center">
           My academic journey has equipped me with a strong foundation in web
           development, including both front-end and back-end technologies. I
           have honed my skills in HTML, CSS, JavaScript, and frameworks such as

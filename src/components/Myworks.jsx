@@ -14,7 +14,7 @@ function Myworks() {
       <div className="h-screen bg-gradient-to-b from-[#7469B6] to-[#AD88C6] flex flex-col  justify-center ">
         <div className="  text-white items-center">
           <div className="justify-center mt-10">
-            <h1 className="text-center text-white text-4xl font-bold">My projects</h1>
+            <h1 className="text-center text-white text-6xl font-bold">My projects</h1>
             <p className="text-center text-white text-2xl font-regular mb-24">These are some of the projects i've made, check it out!</p>
             <div className="flex place-content-around">
               <Link to="/cyp">
