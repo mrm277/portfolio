@@ -21,7 +21,7 @@ import js_roda from "../img/js_roda.svg";
 import php_roda from "../img/php_roda.svg";
 
 function Homepage() {
-  const [textToCopy, setTextToCopy] = useState("mariamonteiroes13@gmail.com");
+  const [textToCopy, setTextToCopy] = useState("mariarodrimonteiro@gmail.com");
 
   const handleCopy = async () => {
     try {
