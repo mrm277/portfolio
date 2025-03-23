@@ -10,13 +10,13 @@ import Cyp from "./components/Cyp.jsx";
 import Bookbeats from "./components/Bookbeats.jsx";
 import Mmf from "./components/Mmf.jsx";
 import Tim from "./components/Tim.jsx";
+import Habi from "./components/Habi.jsx";
 
 
 function App() {  
   return (
     <div className="h-screen w-screen">
       <Router>
-        {/* <Navbar /> */}
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/projects" element={<Myworks />} />
@@ -27,6 +27,7 @@ function App() {
           <Route path="/bookbeats" element={<Bookbeats />} />
           <Route path="/mmf" element={<Mmf />} />
           <Route path="/tim" element={<Tim />} />
+          <Route path="/habi" element={<Habi/>} />
         </Routes>
       </Router>
     </div>
